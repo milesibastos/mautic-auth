@@ -1,0 +1,17 @@
+; environment/dev.ini
+; Development configuration environment.
+
+; MAUTIC
+[mautic_settings]
+baseUrl          = ''
+version          = 'OAuth1a'
+clientKey        = ''
+clientSecret     = ''
+callback         = 'http://localhost/auth'
+
+; PHP Configuration
+
+[php_settings]
+error_reporting = (E_ALL | E_STRICT)
+display_errors = 1
+date.timezone = America/Sao_Paulo

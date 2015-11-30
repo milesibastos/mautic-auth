@@ -1,0 +1,295 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "955ef531aafe6009f04408eab5135109",
+    "content-hash": "a039d11b5bb6ac23bf32563821c4af5e",
+    "packages": [
+        {
+            "name": "homerefill/hr-base",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/HomeRefill/hr-base.git",
+                "reference": "8ec033b0b702a1bb546a649a284535f18ad18d46"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/HomeRefill/hr-base/zipball/8ec033b0b702a1bb546a649a284535f18ad18d46",
+                "reference": "8ec033b0b702a1bb546a649a284535f18ad18d46",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0",
+                "respect/config": "^2.0",
+                "respect/rest": "^0.6.0",
+                "respect/validation": "^0.9.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Base\\": "src/Base"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Bruno Bacus",
+                    "email": "brunobacus@gmail.com"
+                }
+            ],
+            "description": "Base",
+            "time": "2015-11-13 13:38:46"
+        },
+        {
+            "name": "mautic/api-library",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mautic/api-library.git",
+                "reference": "5d1b8936f808de3af750565a9230665ac0f4341c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mautic/api-library/zipball/5d1b8936f808de3af750565a9230665ac0f4341c",
+                "reference": "5d1b8936f808de3af750565a9230665ac0f4341c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3.7",
+                "psr/log": "~1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.5",
+                "raveren/kint": "~0.9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mautic\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Mautic API Connector Library",
+            "time": "2015-09-24 18:38:34"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Psr\\Log\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2012-12-21 11:40:51"
+        },
+        {
+            "name": "respect/config",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Respect/Config.git",
+                "reference": "7c256378a9d32adc012e252598445d880b3fb3a7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Respect/Config/zipball/7c256378a9d32adc012e252598445d880b3fb3a7",
+                "reference": "7c256378a9d32adc012e252598445d880b3fb3a7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.4",
+                "respect/test": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Respect\\": "library/Respect"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Respect/Config Contributors",
+                    "homepage": "https://github.com/Respect/Config/graphs/contributors"
+                }
+            ],
+            "description": "A powerful, small, deadly simple configurator and dependency injection container made to be easy.",
+            "homepage": "https://github.com/Respect/Config",
+            "keywords": [
+                "config",
+                "dependency injection",
+                "dic",
+                "respect"
+            ],
+            "time": "2015-03-27 17:34:09"
+        },
+        {
+            "name": "respect/rest",
+            "version": "0.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Respect/Rest.git",
+                "reference": "4f60aa199623d738a3391ca1e80bafb754bc9308"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Respect/Rest/zipball/4f60aa199623d738a3391ca1e80bafb754bc9308",
+                "reference": "4f60aa199623d738a3391ca1e80bafb754bc9308",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Respect\\": "library/Respect"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD Style"
+            ],
+            "authors": [
+                {
+                    "name": "Alexandre Gaigalas",
+                    "email": "alexandre@gaigalas.net"
+                },
+                {
+                    "name": "Respect/Data Contributors",
+                    "homepage": "https://github.com/Respect/Data/graphs/contributors"
+                }
+            ],
+            "description": "Thin controller for RESTful applications",
+            "homepage": "http://respect.li/",
+            "time": "2015-01-12 09:55:16"
+        },
+        {
+            "name": "respect/validation",
+            "version": "0.9.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Respect/Validation.git",
+                "reference": "bf5c0bf1322e761cd80815db9c9260c0143aed3d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Respect/Validation/zipball/bf5c0bf1322e761cd80815db9c9260c0143aed3d",
+                "reference": "bf5c0bf1322e761cd80815db9c9260c0143aed3d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "egulias/email-validator": "~1.2",
+                "malkusch/bav": "~1.0",
+                "phpunit/phpunit": "~4.0",
+                "symfony/validator": "~2.6.9",
+                "zendframework/zend-validator": "~2.3"
+            },
+            "suggest": {
+                "egulias/email-validator": "Strict (RFC compliant) email validation",
+                "ext-bcmath": "Arbitrary Precision Mathematics",
+                "ext-mbstring": "Multibyte String Functions",
+                "malkusch/bav": "German bank account validation",
+                "symfony/validator": "Use Symfony validator through Respect\\Validation",
+                "zendframework/zend-validator": "Use Zend Framework validator through Respect\\Validation"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.9-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Respect\\Validation\\": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD Style"
+            ],
+            "authors": [
+                {
+                    "name": "Respect/Validation Contributors",
+                    "homepage": "https://github.com/Respect/Validation/graphs/contributors"
+                }
+            ],
+            "description": "The most awesome validation engine ever created for PHP",
+            "homepage": "http://respect.li",
+            "keywords": [
+                "respect",
+                "validation",
+                "validator"
+            ],
+            "time": "2015-11-06 14:19:53"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "homerefill/hr-base": 20,
+        "mautic/api-library": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.6.0"
+    },
+    "platform-dev": []
+}

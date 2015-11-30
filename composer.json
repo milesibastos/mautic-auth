@@ -1,0 +1,20 @@
+{
+    "name": "homerefill/hr-base-project",
+    "description": "Base project",
+    "authors": [
+        {
+            "name": "Bruno Bacus",
+            "email": "brunobacus@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "homerefill/hr-base": "dev-master",
+        "mautic/api-library" : "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mailer\\": "src/Mailer"
+        }
+    }
+}
