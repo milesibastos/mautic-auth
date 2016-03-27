@@ -15,7 +15,7 @@ git clone https://github.com/HomeRefill/mautic-auth.git
 
 ```
 cd mautic-auth
-cp config/environment/dev.ini.dist config/environment/dev.ini
+cp config/environment/dev.ini-dist config/environment/dev.ini
 composer install
 ```
 
